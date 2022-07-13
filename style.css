@@ -160,7 +160,7 @@ footer.demo {
 }
 
 .nav-logo {
-    max-height: 65px !important;
+    max-height: 55px !important;
 }
 
 @media (min-width: 1024px) {
@@ -174,7 +174,7 @@ footer.demo {
 .logo-text {
     font-family: 'Edu TAS Beginner', cursive;
     font-weight: 700;
-    font-size: 34px;
+    font-size: 31px;
     text-transform: none;
 }
 
@@ -200,4 +200,60 @@ footer.demo {
 .banner-area h2 {
     text-align: center !important;
     font-size: 60px;
+}
+
+.all-products {
+    justify-content: space-between;
+}
+
+.all-products .single-item .item-title {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.all-products .single-item .item-title a {
+    color: #232323 !important;
+}
+
+.all-products .single-item .item-title a:hover {
+    color: #104cba !important;
+}
+
+.all-products .single-item {
+    min-width: 350px;
+}
+
+.all-products .single-item .thumb {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.all-products .single-item .product-contact-btn {
+    border: none;
+    padding: 11px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-weight: 500;
+    background: #104cba;
+    position: relative;
+    z-index: 1;
+    color: #ffffff;
+}
+
+.all-products .single-item .details-list {
+    font-weight: 500;
+    font-size: 16px
+}
+
+.navbar.brand-style-bg .navbar-header::after, .navbar.brand-style-bg .navbar-header::before {
+    content: none !important;
+}
+
+.navbar-brand {
+    padding-left: 50px;
+}
+
+.navbar-header {
+    padding: 6px 0 !important;
 }
