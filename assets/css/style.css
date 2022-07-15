@@ -2319,10 +2319,10 @@ a {
 /* Navbar Style */
 @media (min-width: 1200px) {
   .navbar.brand-style-bg .navbar-header {
-    padding: 51px 0;
+    /* padding: 51px 0; */
     position: relative;
-    top: -61px;
-    margin-bottom: -70px;
+    /* top: -61px; */
+    /* margin-bottom: -70px; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -5511,7 +5511,7 @@ a {
 }
 
 .process-list p {
-  padding-right: 25%;
+  /* padding-right: 25%; */
   opacity: 0.8;
   margin-bottom: 0;
 }
